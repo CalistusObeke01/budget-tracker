@@ -63,7 +63,11 @@ const AddExpenseForm = () => {
             	<div className='col-sm'>
 					<Button 
 						type='submit'
+<<<<<<< HEAD
 						className='btn btn-primary mt-3 mb-4'
+=======
+						className='btn btn-primary mt-3'
+>>>>>>> parent of f1a8ea8... Updates
 						disabled={!description || !amount}
 					></Button>
 				</div>
