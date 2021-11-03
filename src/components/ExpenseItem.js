@@ -26,7 +26,7 @@ const ExpenseItem = ({description, amount, id}) => {
 					&#8358;{amount}
 				</span>
 				
-				<TiDelete size='1.5em' onClick={handleDeleteExpense}></TiDelete>
+				<TiDelete size='1.5em' onClick={handleDeleteExpense} style={{cursor: 'pointer'}}></TiDelete>
 			</div>
 		</li>
 	);
